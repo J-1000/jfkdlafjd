@@ -18,9 +18,9 @@ class Game {
 
 	preload() {
 
-		this.endGameImage = loadImage('Assets/pngaaa.com-763555.png')
+		this.endGameImage = loadImage('assets/pngaaa.com-763555.png')
 
-		this.obstacleImage = loadImage('Assets/kisspng-mushroom-cartoon-snacks-5acaa7e9d23ae5.2640844415232306978611.png')
+		this.obstacleImage = loadImage('assets/kisspng-mushroom-cartoon-snacks-5acaa7e9d23ae5.2640844415232306978611.png')
 
 		this.collectionImage = loadImage('assets/kisspng-cartoon-illustration-cartoon-mushrooms-5a99dc89e28990.8592031715200329059279.png')
 
