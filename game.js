@@ -29,7 +29,7 @@ class Game {
 		this.backgroundImages = [
 			{ src: loadImage('assets/11background.png'), x: 0, speed: 0 },
 			{ src: loadImage('assets/10distantclouds.png'), x: 0, speed: 0.3 },
-			{ src: loadImage('assets/09distant_clouds1.png'), x: 0, speed: 0.7 },
+			{ src: loadImage('assets/09distantclouds1.png'), x: 0, speed: 0.7 },
 			{ src: loadImage('assets/08clouds.png'), x: 0, speed: 1 },
 			{ src: loadImage('assets/07hugeclouds.png'), x: 0, speed: 1.3 },
 			{ src: loadImage('assets/06hill2.png'), x: 0, speed: 1.7 },
