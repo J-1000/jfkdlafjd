@@ -22,22 +22,22 @@ class Game {
 
 		this.obstacleImage = loadImage('Assets/kisspng-mushroom-cartoon-snacks-5acaa7e9d23ae5.2640844415232306978611.png')
 
-		this.collectionImage = loadImage('Assets/kisspng-cartoon-illustration-cartoon-mushrooms-5a99dc89e28990.8592031715200329059279.png')
+		this.collectionImage = loadImage('assets/kisspng-cartoon-illustration-cartoon-mushrooms-5a99dc89e28990.8592031715200329059279.png')
 
-		this.playerImage = loadImage('Assets/kisspng-european-hedgehog-u0418u0441u0442u043eu0440u0438u0-cartoon-hedgehog-5a7ac1116d4006.8550967915179942574475.png')
+		this.playerImage = loadImage('assets/kisspng-european-hedgehog-u0418u0441u0442u043eu0440u0438u0-cartoon-hedgehog-5a7ac1116d4006.8550967915179942574475.png')
 
 		this.backgroundImages = [
-			{ src: loadImage('Assets/_11_background.png'), x: 0, speed: 0 },
-			{ src: loadImage('Assets/_10_distant_clouds.png'), x: 0, speed: 0.3 },
-			{ src: loadImage('Assets/_09_distant_clouds1.png'), x: 0, speed: 0.7 },
-			{ src: loadImage('Assets/_08_clouds.png'), x: 0, speed: 1 },
-			{ src: loadImage('Assets/_07_huge_clouds.png'), x: 0, speed: 1.3 },
-			{ src: loadImage('Assets/_06_hill2.png'), x: 0, speed: 1.7 },
-			{ src: loadImage('Assets/_05_hill1.png'), x: 0, speed: 2 },
-			{ src: loadImage('Assets/_04_bushes.png'), x: 0, speed: 2.5 },
-			{ src: loadImage('Assets/_03_distant_trees.png'), x: 0, speed: 3 },
-			{ src: loadImage('Assets/_02_trees and bushes.png'), x: 0, speed: 4 },
-			{ src: loadImage('Assets/_01_ground.png'), x: 0, speed: 7 },
+			{ src: loadImage('assets/_11_background.png'), x: 0, speed: 0 },
+			{ src: loadImage('assets/_10_distant_clouds.png'), x: 0, speed: 0.3 },
+			{ src: loadImage('assets/_09_distant_clouds1.png'), x: 0, speed: 0.7 },
+			{ src: loadImage('assets/_08_clouds.png'), x: 0, speed: 1 },
+			{ src: loadImage('assets/_07_huge_clouds.png'), x: 0, speed: 1.3 },
+			{ src: loadImage('assets/_06_hill2.png'), x: 0, speed: 1.7 },
+			{ src: loadImage('assets/_05_hill1.png'), x: 0, speed: 2 },
+			{ src: loadImage('assets/_04_bushes.png'), x: 0, speed: 2.5 },
+			{ src: loadImage('assets/_03_distant_trees.png'), x: 0, speed: 3 },
+			{ src: loadImage('assets/_02_trees and bushes.png'), x: 0, speed: 4 },
+			{ src: loadImage('assets/_01_ground.png'), x: 0, speed: 7 },
 		]
 
 	}
@@ -100,7 +100,7 @@ class Game {
 		if (this.lives.length <= 0) {
 			noLoop()
 			image(this.endGameImage, 500, 250, 1000, 500)
-			this.button = createImg('Assets/4972899ccd327d1.png', 1000, 500)
+			this.button = createImg('assets/4972899ccd327d1.png', 1000, 500)
 			this.button.width = 150
 			this.button.height = 500
 			this.button.mousePressed(this.resetSketch)
